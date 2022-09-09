@@ -49,9 +49,12 @@ export const { styled, getCssText, globalCss } = createStitches({
       "32": `2rem`,
       "44": `2.75rem`,
       "52": `3.25rem`,
+      "64": `4rem`,
       "105": `6.5625rem`,
     },
     lineHeights: {
+      "10": `0.625rem`,
+      "20": `1.25rem`,
       "44": `44px`,
     },
     radii: {

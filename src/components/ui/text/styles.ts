@@ -1,10 +1,7 @@
 import { styled } from "../../../styles";
 
 const Paragraph = styled("p", {
-  fontSize: "$32",
-  lineHeight: "$44",
-  fontWeight: "$semiRegular",
-  color: "$primary",
+  fontFamily: "$default",
 
   variants: {
     size: {
@@ -21,10 +18,25 @@ const Paragraph = styled("p", {
         lineHeight: "$44",
       },
     },
+    shape: {
+      default: {
+        fontSize: "$32",
+        lineHeight: "$10",
+        fontWeight: "$semiRegular",
+        color: "$primary",
+      },
+      secondary: {
+        fontSize: "$64",
+        fontWeight: "$bold",
+        color: "$secondary",
+        lineHeight: "$20",
+      },
+    },
   },
 
   defaultVariants: {
     size: "large",
+    shape: "default",
   },
 });
 
