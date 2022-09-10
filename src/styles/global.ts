@@ -27,11 +27,17 @@ export const globalStyles = globalCss({
   },
   body: {
     fontFamily: `$default`,
+    width: "100%",
+    height: "100%",
   },
   "h1, h2, h3, h4": {
     color: `$black`,
   },
-  "button, a, li": {
+  li: {
+    listStyle: `none`,
+    textDecoration: `none`,
+  },
+  "button, a": {
     cursor: `pointer`,
   },
   article: {

@@ -64,6 +64,7 @@ export const { styled, getCssText, globalCss } = createStitches({
     },
     fonts: {
       default: `Saira`,
+      secondary: `Inter`,
     },
     fontWeights: {
       regular: 300,
@@ -71,6 +72,7 @@ export const { styled, getCssText, globalCss } = createStitches({
       medium: 500,
       semiBold: 600,
       bold: 700,
+      superBold: 900,
     },
     zIndices: {
       default: 1,

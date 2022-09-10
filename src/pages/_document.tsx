@@ -13,7 +13,7 @@ export default class MyDocument extends Document {
             crossOrigin="true"
           />
           <link
-            href="https://fonts.googleapis.com/css2?family=Benne&family=Montserrat:wght@300;400;500;600;700&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Benne&family=Inter:wght@300;500;700&family=Saira:wght@300;400;500;600;700;900&display=swap"
             rel="stylesheet"
           ></link>
           <link href="../../public/favicon.png" type="image/png" />
