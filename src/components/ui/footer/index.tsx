@@ -23,13 +23,25 @@ const Footer = () => {
         <Image width={253} height={51} src={Logo} />
         <ImgContainer>
           {" "}
-          <a className="link" href={"https://www.instagram.com/univille/"}>
+          <a
+            className="link"
+            target="_blank"
+            href={"https://www.instagram.com/univille/"}
+          >
             <Image src={Instagram} />
           </a>
-          <a className="link" href={"www.facebook.com/univille/"}>
+          <a
+            className="link"
+            target="_blank"
+            href={"www.facebook.com/univille/"}
+          >
             <Image src={Facebook} />
           </a>
-          <a className="link" href={"https://twitter.com/univille"}>
+          <a
+            className="link"
+            target="_blank"
+            href={"https://twitter.com/univille"}
+          >
             <Image src={Twitter} />
           </a>
         </ImgContainer>

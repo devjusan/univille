@@ -26,6 +26,7 @@ const SocialMedia = styled("div", {
   display: "flex",
   flexFlow: "row wrap",
   alignContent: "center",
+  justifyContent: "space-between",
   gap: "$28",
 
   "@md": {
