@@ -77,7 +77,7 @@ export const { styled, getCssText, globalCss } = createStitches({
     zIndices: {
       default: 1,
       upper: 2,
-      accordion: 5,
+      modal: 5,
     },
     transitions: {
       default: `all 0.2s ease`,
